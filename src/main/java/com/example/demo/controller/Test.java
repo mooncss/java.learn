@@ -24,10 +24,12 @@ public class Test {
         map.put("日期","2021-10-21");
 
         map.remove("昵称");
+
         Collection values = map.values();
         for (Object val:values){
             System.out.println("val.toString() = " + val.toString());
         };
+
         System.out.println("--------------------------------");
         System.out.println("map = " + map);
         return "1232131232";
